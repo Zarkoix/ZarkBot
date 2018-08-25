@@ -1,0 +1,18 @@
+{
+  "name": "ZarkBot",
+  "version": "1.0.0",
+  "description": "Moderation and Roles",
+  "main": "bot.js",
+  "author": "Adam Towers",
+  "dependencies": {
+    "config": "^2.0.1",
+    "discord.js": "^11.4.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "scripts": {
+    "build": "babel src -d lib"
+  }
+}
